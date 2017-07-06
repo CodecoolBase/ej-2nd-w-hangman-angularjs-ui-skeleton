@@ -1,0 +1,7 @@
+<h2>Play game</h2>
+<h3>Status</h3>
+<p>{{gameStatus | json}}</p>
+<label for="to-guess">To guess
+    <input [(ngModel)]="toGuess">
+</label>
+<button (click)="submit()">Submit</button>
